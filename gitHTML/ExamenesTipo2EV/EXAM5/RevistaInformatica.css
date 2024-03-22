@@ -1,0 +1,143 @@
+/*EXAMEN TIPO 5: Revista informática*/
+
+@font-face {
+    /*Para importar un tipo de fuente*/
+    font-family: "titulo";
+    src: url("revistas-informatica-plantilla/press-start-2p.woff2");
+}
+
+body{
+    background:url(revistas-informatica-plantilla/img/Raspberry_Pi_Logo.svg)repeat-y top left 10px;
+    background-size: 5%;
+    background-color: lightpink; 
+    margin: 0 50px 0 50px;
+}
+
+
+h1{
+    font-family: "titulo";
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    margin-top: 0.5em;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(75, 136, 62);
+    text-shadow: 8px -8px rgba(83, 200, 60, 0.438);
+    overflow: auto;
+
+}
+
+h2{
+    background-color:rgb(197, 88, 121);
+    margin-top: 0;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    margin:30px 150px 30px 150px;
+}
+
+.enlaces{
+    text-align: center;
+    color: blue;
+    background-color: white;
+    word-spacing: 20px;
+    border-radius: 10px;
+    margin: 0 35% 0 35%;
+    padding: 10px 0 10px 0;
+    overflow: auto;
+}
+
+.sangria{
+    text-align: justify;
+    text-indent: 2em;
+    margin: 10px 10px 10px 10px;
+}
+
+.div1{
+    text-align: justify;
+    border: 4px solid rgb(136, 26, 63);
+    margin:30px 150px 30px 150px;
+    overflow: auto;
+}
+
+br{
+margin-bottom: 2em;
+}
+
+hr{
+    border: 5px solid rgb(136, 26, 63);
+    border-radius: 5px;
+    margin: 0 30% 0 30%;
+    overflow: auto;
+}
+
+.pie{
+    float: right;
+    margin-right: 7.5em;
+}
+
+.magpi{
+    float:right;
+    width: 10em;
+    margin:10px 10px 15px 10px ;
+    
+}
+
+.custom{
+    float:left;
+    width: 10em;
+    margin:40px 10px 10px 10px ;
+    
+}
+
+.wireframe{
+    float:right;
+    width: 8em;
+    margin:40px 10px 10px 10px ;
+    
+}
+
+.flecha{
+   float: left;
+    font-size: 70px;
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+    margin:0 0 0 10px;
+    width: 1em;
+    height: 90px;      
+}
+
+a{
+   text-decoration: none; 
+}
+
+.azul{
+    color: blue;
+}
+
+.negro{
+    font-weight: bold;
+}
+
+.doble{
+    text-decoration: underline overline 2px green;
+}
+
+.rojo{
+    color: red;
+}
+
+.mayucursiva{
+    text-transform: uppercase;
+    font-style: italic;
+}

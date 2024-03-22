@@ -1,0 +1,150 @@
+/*EXAMEN TIPO 6: Peak oil*/
+
+body {
+    background-color: lightgray;
+    margin: 0 130px 0 130px;
+    padding-bottom: 0;
+    top: 10px;
+}
+
+h1 {
+
+    word-spacing: 10px;
+    margin: 0.5em 0 0 19em;
+    font-size: 40px;
+    text-align: center;
+    overflow: auto;
+}
+
+h2 {
+    background-color: grey;
+    color: white;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+h3 {
+    padding: 0 20px 0 20px;
+    background-color: rgb(178, 175, 175);
+    color:white;
+
+}
+
+.nota {
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.textonota {
+    float: left;
+    text-align: left;
+    margin: 8px;
+    font-size: 10px;
+}
+
+.div1 {
+    text-align: justify;
+    background-color: rgb(236, 233, 230);
+    margin: 30px 150px 30px 150px;
+    border-radius: 10px;
+    overflow: auto;
+    width: 80%;
+}
+
+.div2 {
+    background-color: white;
+    margin: 0 20px 0 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 30px 20px 30px 20px;
+
+
+}
+
+.sangria {
+    text-align: justify;
+    text-indent: 2em;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+}
+
+.mini {
+
+    margin-left: 22em;
+    overflow: auto;
+    clear: both;
+}
+
+.cliff{
+    text-align: center;
+    margin-left: 20em;
+    margin-right: 0em;
+    overflow: auto;
+    clear: both;
+}
+
+hr {
+    
+    background-color: rgb(255, 208, 0);
+    border: 1px solid black;
+    margin-left: 30em;
+    width: 20em;
+    height: 5px;
+
+}
+
+p.emogi {
+    float: right;
+    font-size: 55px;
+    margin: 0 10px 0 10px;
+}
+
+.pie{
+    
+    background-color: rgb(255, 208, 0);
+    margin-left: 9.6em;
+    margin-right: 0;
+    width: 62.3em;
+}
+
+.rojo{
+    color:red;
+    font-style: italic;
+}
+
+.negromayus{
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.negsub{
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a.textonota{
+    margin: 0;
+    font-size: 15px;
+   text-decoration: none;
+    color: blue;
+    text-decoration: underline blue;
+}
+.nota{
+    width: 70px;
+    position:absolute;
+    background-color: white;
+    margin: 6em 0 0 1em;
+    border: 3px solid;
+    border-color: rgb(186, 186, 186) rgb(88, 87, 87) rgb(88, 87, 87) rgb(186, 186, 186);
+
+} 
+

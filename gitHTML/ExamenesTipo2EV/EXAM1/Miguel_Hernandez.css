@@ -1,0 +1,84 @@
+/*EXAMEN TIPO 1: Miguel Hernández*/
+
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 200px;
+    text-align: left;
+    color: grey;
+    padding-top: 1px;
+    margin-top:80px;
+}
+
+p{
+    font-size: 20px;
+    letter-spacing:1px ;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    line-height: 38px;
+    
+}
+
+.azul {
+    background: url("miguel-hernandez-plantilla/water-wave-1f30a.svg") repeat-x bottom;
+    background-size: 6em;
+    background-color: rgba(162, 202, 238, 0.432); 
+    position: absolute;
+    top: 1em;
+    left: 28em;
+    bottom: 40em;
+    border-radius: 2em;
+    width: 25em;
+    height: 25em;
+
+    
+}
+
+.rosa {
+    background-color: rgba(235, 166, 217, 0.404);
+    position: absolute;
+    top: 1em;
+    left:75em;
+    bottom: 40em;
+    border-radius: 2em;
+    width: 25em;
+    height: 24em;
+    
+}
+
+.verde {
+    background-color: rgba(170, 238, 167, 0.342);
+    border-radius: 2em;
+    position: absolute;
+    left: 6em;
+    top: 30em;
+    border-radius: 2em;
+    width: 25em;
+    height: 27em;
+    
+}
+
+.amarillo {
+    background: url("miguel-hernandez-plantilla/earth-globe-europe-africa-1f30d.svg") repeat-y right;
+    background-color: rgba(236, 247, 119, 0.39);
+    position: absolute;
+    background-size: 3.6em;
+    left: 52em;
+    top: 38em;
+    border-radius: 2em;
+    width: 32em;
+    height: 18em;
+    
+}
+
+p.avion {
+    position: fixed;
+    right: 0.7%;
+    bottom: 0.5%;
+    font-size: 65px;
+    margin: 0;
+}

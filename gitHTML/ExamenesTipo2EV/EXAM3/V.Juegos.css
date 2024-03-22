@@ -1,0 +1,175 @@
+/*EXAMEN TIPO 3: Videojuegos Clásicos*/
+
+@font-face {
+    /*Para importar un tipo de fuente*/
+    font-family: "titulo";
+    src: url("videojuegos-clasicos-plantilla/fonts/monoton.woff2");
+}
+
+.borde{
+   background:url(videojuegos-clasicos-plantilla/img/matrix.png)repeat-y top left, url(videojuegos-clasicos-plantilla/img/matrix2.png) repeat-y right top; 
+   background-size: 8%; 
+
+}
+
+.logo{
+    background-color: white;
+    position: absolute;
+    top:10px;
+    width: 5em;
+    left: 22px;
+}
+
+.emojis{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(83, 200, 60);   
+}
+
+.pinpong{
+    font-size: 30px;
+    overflow: auto;
+}
+.cosa{
+    font-size: 30px;
+    overflow: auto;
+}
+.fantasma{
+    font-size: 30px;
+    overflow: auto;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0 130px 0 130px;
+    padding-bottom: 0;
+    top:10px;
+}
+
+h1 {
+    font-family: "titulo";
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(83, 200, 60);
+    margin: 0 0 0 5%;
+    padding-top: 10px;
+    width: 90%;
+    overflow: auto; 
+    text-decoration: underline  rgb(83, 200, 60); 
+}
+
+.linea1{
+    border-bottom: 1px solid rgb(83, 200, 60);
+    margin: 0 18.9% 0 18.9%;
+    overflow: auto;
+    
+}
+
+.linea2{
+    border-bottom: 1px solid rgb(83, 200, 60);
+    margin: 0 10% 0 10%;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+
+h2{
+    background-color:   rgb(83, 200, 60);
+    outline: 2px solid white;
+    margin-top: 0px;
+    text-align: left;
+    letter-spacing: 10px;
+    color: white;
+    padding: 0 20px 0 20px;
+    border-top-right-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align:justify;
+    word-spacing: 10px;
+    margin: 30px 20px 30px 20px;
+    line-height: 30px;
+    
+    
+}
+
+.divP{
+    
+    text-align: justify;
+    border: white 2px solid;
+    margin: 0 0 0 10%;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    overflow: auto;
+    width: 80%;
+    
+}
+.divP2{
+    
+    text-align: justify;
+    margin: 0 0 0 10%;
+    overflow: auto;
+    width: 80%;
+    
+}
+
+.linea3{
+    border-bottom: 1px solid rgb(83, 200, 60);
+    margin: 0 10% 0 10%;
+    overflow: auto;
+}
+
+.pie{
+    margin: 0;
+    float:left;
+    margin-bottom: 0;
+}
+
+.linea4{
+    border-bottom: 1px solid rgb(83, 200, 60);
+    margin: 0 10% 0 10%;
+    overflow: auto;
+}
+
+.pong{
+    float: right;
+    border: 4px solid white;
+    outline: 4px solid rgb(83, 200, 60);
+    margin:10px 20px 0 20px;
+}
+
+.space{
+    float: left;
+    border: 4px solid white;
+    outline: 4px solid rgb(83, 200, 60);
+    margin:10px 20px 0 20px; 
+}
+
+.pac-man{
+    float: right;
+    border: 4px solid white;
+    outline: 4px solid rgb(83, 200, 60);
+    margin:10px 20px 0 20px; 
+}
+
+.amarillo{
+    color:yellow;
+}
+
+.rojo{
+    color: red;
+}
+
+.verde{
+    color:green;
+}
+
+/*TOP RIGHT BOTTOM LEFT*/

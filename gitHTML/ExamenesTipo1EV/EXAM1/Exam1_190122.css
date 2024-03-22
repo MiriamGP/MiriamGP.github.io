@@ -1,0 +1,125 @@
+/*EXAMEN TIPO 1: AMSTERDAM*/
+
+
+/* ".content{}" (o como quieras llamarlo) Es el contenedor principal dentro de un archivo html (página) pueden haber muchos. 
+     El body será único y el contenedor padre dentro de un index.html (archivo principal de html ) 
+*/
+/*display: flex; Se utiliza dentro de un contenedor, para controlar facilmente la disposicion y alineacion de los elementos(hijos)*/
+
+@font-face{/*Para importar un tipo de fuente*/
+    font-family: "dancing-script";
+    src: url(amsterdam-plantilla/dancing-script.woff2);
+}
+
+.content { 
+    background: url(amsterdam-plantilla/flag-netherlands-1f1f3-1f1f1.svg) repeat-y top left, url(amsterdam-plantilla/cheese-wedge-1f9c0.svg) repeat-y right top;
+    margin: 0 20px;
+    background-size: 60px;
+    background-color: white;
+    font-family: sans-serif;
+    color: white;
+    overflow: auto;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: 10px; /*Para la separacion de las letras*/
+    color: white;
+    font-family: "sans-serif";
+    
+}
+
+.fondo-rojo {
+    padding:20px 150px 0;
+    background-color: rgb(225, 40, 40);
+    margin:0 90px;
+    overflow: auto;
+    
+}
+
+.fondo-negro{
+    background-color: black;
+    padding: 10px;
+    margin: 10px 0;
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.left{
+
+    float:left;
+    margin-right: 40%;
+}
+
+.right{
+    float:right;
+    margin-left: 40%;
+}
+
+.contenido-textos {
+    overflow: auto;
+    margin-bottom: 50px;
+}
+hr{
+    margin: 0 30%;
+    border: solid white 5px;
+    border-radius: 10px;
+
+}
+.pie{
+    color: purple;
+    background-color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 20px 45% 0;
+    width: 70px;
+    padding:10px;
+}
+.amsterdam{
+    color: black;
+    font-size: 25px;
+}
+.amsterdam2{
+    color: red;
+    font-size: 25px; 
+}
+.azul{
+    color: blue;
+    font-weight: bold;
+}
+.verde{
+    color: green;
+}
+.amarillo{
+    color: yellow;
+}
+.rosa{
+    color: rgb(233, 28, 137);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.blockquote{
+    width: 200px;
+    position:absolute;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    left: 0;
+    top:0;
+
+}
+.blockquote-texto {
+    text-align: right;
+    margin: 8px;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: "dancing-script";
+}
+.anafrank{
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    font-family: "sans-serif";
+}

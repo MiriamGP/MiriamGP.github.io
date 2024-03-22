@@ -1,0 +1,183 @@
+/*EXAMEN TIPO 2: DOMINIO PUBLICO EN ESPAÑA*/
+
+@font-face{/*Para importar un tipo de fuente*/
+    font-family: "righteous";
+    src: url("dominio-publico-plantilla/righteous.woff2");
+}
+body {
+    background-color: rgb(238, 201, 153);/*Color de fondo*/
+    font-family: sans-serif;/*Fuente de la letra*/
+    text-align: justify;
+    width: 100%;
+    margin-top: -23px;
+    margin-bottom: -32px;
+    font-size: 150%;
+}
+
+.contenedor-titulo {
+    padding: 20px 0;
+    margin: 0 110px 0 30px;
+    position: relative;
+    text-shadow: 6px 2px rgb(122, 85, 53);/*Agrgar sombras al texto*/
+    font-weight: bold; /*Negrita*/
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+#copyright {
+    float: left;
+    font-size: 850%;
+    width:10%;
+    min-width:160px;
+    
+}
+
+#imagen {
+    float: right;
+    font-size: 850%;
+    width:10%;
+    min-width:160px;
+    margin-top: 35px;
+}
+
+#public-domain {
+    float:right;
+    width:10%;
+    margin:0;
+}
+
+#imagen-orwell {
+    float: left;
+    width: 160px;
+    height: 210px;
+    padding: 5px;
+    border: 5px solid#cf9e53;
+    clear: both;
+}
+
+#imagen-agatha {
+    float: right;
+    width: 160px;
+    height: 210px;
+    padding: 5px;
+    border: 5px solid#cf9e53
+}
+
+#imagen-serrano {
+    float: right;
+    width: 160px;
+    height: 210px;
+    padding: 5px;
+    border: 5px solid#cf9e53
+}
+
+.contenedor-serrano {
+    position: relative;
+    overflow:auto;
+}
+
+.texto-serrano {
+    margin-right: 200px;
+    text-align: justify;
+}
+
+.texto-imagenes {
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+
+h1 {
+   
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 300%;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 10px;
+    width: 70%;
+    float: left;
+}
+
+h2 {
+    font-size: 210%;
+    text-align: left;
+    font-weight: bold;
+    font-family: "righteous";
+}
+
+div.borde_punteado {
+    text-align: left;
+    border: dotted;/*Para puntear los bordes (dashed=lineas)*/
+    border-color: rgb(192, 137, 65);
+    border-radius: 45px;
+    padding-left: 15px;
+    margin-left: 30px;
+    padding-right: 30px;
+    margin-right: 115px;
+    border-width: 10px;
+    clear: both;
+}
+
+div.borde {
+    border-left: 40px solid #cf9e53;
+    padding: 30px;
+    margin-left: 150px;
+    padding-top: 10px;
+    clear:both;
+}
+
+.texto-2021 {
+    clear: both;
+}
+
+div.borde2 {
+    position: relative;
+    border-left: 10px solid #cf9e53;
+    padding-left: 30px;
+    border-right: 10px solid #cf9e53;
+    margin: 30px;
+    padding-right: 30px;
+    margin-right: 115px;
+    clear:both;
+    padding-bottom: 20px;
+    padding-top: 55px;
+}
+
+div {
+    padding-left: 3px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+p.avion {
+    position: fixed;
+    right: 0.7%;
+    bottom: 0.5%;
+    font-size: 65px;
+    margin: 0;
+}
+
+.autor {
+    color: blue;
+    font-style: oblique;/*Para poner color y palabras en cursiva*/
+}
+
+.profesion {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.nacionalidad {
+    color: green;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*
+text-transform: uppercase;  ESTO ES PARA LAS MAYUSCULAS
+border-bottom: white 5px solid; ES UNA LINEA INFERIOR (SUBRAYADO:  COLOR, ANCHO, ESTILO)
+*/

@@ -1,0 +1,102 @@
+/*EXAMEN TIPO 7: Yogi Berra*/
+
+@font-face {
+    /*Para importar un tipo de fuente*/
+    font-family: "titulo";
+    src: url("yogi-berra-plantilla/slackey.woff2");
+}
+
+body {
+    background: url(yogi-berra-plantilla/violeta.png)repeat-y top left, url(yogi-berra-plantilla/violeta.png) repeat-y right top;
+    background-size: 5%;
+    background-color: rgb(170, 194, 230);
+}
+
+
+
+h1 {
+    font-family: "titulo";
+    color: rgb(87, 75, 119);
+    text-shadow: 6px -6px rgb(255, 255, 255);
+    word-spacing: 10px;
+    font-size: 40px;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 5px solid rgb(87, 75, 119);
+    width: 90.5%;
+    top: 0;
+    margin-bottom: 30px;
+}
+
+div {
+    height: 14.8em;
+    width: 90.8%;
+    margin-left: 4.6%;
+    background-color: white;
+    overflow: auto;
+
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 10px 10px 10px;
+    padding-top: 10px;
+    overflow: auto;
+    
+
+}
+
+.foto {
+    width: 13em;
+    float: left;
+    margin: 10px 10px 8px 10px;
+    border: 5px solid white;
+    outline: 1px solid black;
+}
+
+.ps {
+    background-color: rgb(170, 194, 230);
+    width: 80%;
+    height: 40%;
+    
+}
+
+.discontinuo {
+    color: white;
+    float: left;
+    width: 20rem;
+    height: 20rem;
+    overflow: auto;
+    border: white 2px dashed;
+    margin: 50px 0 0 80px;
+    text-align: left;
+    background-color: orange;
+    font-size: 30px;
+    
+
+
+}
+
+.solido {
+    text-align: center;
+    color: black;
+    float: left;
+    width: 20rem;
+    height: 20rem;
+    overflow: auto;
+    border: rgb(1, 68, 1) 2px solid;
+    margin: 50px 0 0 70px;
+    border-radius: 10px;
+    background: url("yogi-berra-plantilla/verde.png");
+    font-size: 30px;
+    
+}
+
+.negro {
+    color: black;
+   
+}

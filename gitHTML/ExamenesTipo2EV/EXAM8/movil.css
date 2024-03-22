@@ -1,0 +1,109 @@
+/*EXAMEN TIPO 8: Lo que le movil se llevo*/
+
+@font-face {
+    /*Para importar un tipo de fuente*/
+    font-family: "titulo";
+    src: url("movil-plantilla/rye.woff");
+}
+
+body {
+    background: url(movil-plantilla/movil-1f4f1.svg)repeat-y top left, url(movil-plantilla/fijo-1f4de.svg) repeat-y right top;
+    background-size: 5%;
+    background-color: orange;
+
+}
+
+h1 {
+    font-family: "titulo";
+    color: rgb(255, 203, 125);
+    word-spacing: 10px;
+    font-size:100px;
+    text-align: center;
+    overflow: auto;
+    
+}
+
+.enlaces {
+    border: 3px solid;
+    border-color: rgb(186, 186, 186) rgb(88, 87, 87) rgb(88, 87, 87) rgb(186, 186, 186);
+    width: 60%;
+    color: black;
+    background-color: white;
+    text-align:center;
+    word-spacing: 20px;
+    margin-left: 20%;
+    text-transform: uppercase;
+    overflow: auto;
+}
+
+p {
+    font-size:20px;
+    margin: 1% 10% 0 10%;
+    overflow: auto;
+}
+
+.sangria {
+    text-align: justify;
+    text-indent: 2em;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    background-color: rgb(255, 203, 125);
+    text-align: center;
+    width: 40em;
+    height: 2px;
+    margin-top: 30px;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    border-radius:5px;
+    margin-top: 0;
+}
+
+div{
+    text-align: justify;
+    background-color: white;
+    border-radius: 5px;
+    margin:30px 150px 30px 150px;
+    overflow: auto;
+}
+
+.naranja{
+    color:orange;
+}
+
+.calendario{
+    float:left;
+    width: 4em;
+    margin:10px 10px 0 10px ;
+}
+
+.camara{
+    float:right;
+    width: 7em;
+    margin:0 10px 0 10px ;
+}
+
+.emogi{
+    float: right;
+    font-size: 40px;
+    margin:0 50px 10px 0;
+    width: 55px;
+    
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.pie{
+    margin-left: 7.5em;
+}
+
+a{
+    text-decoration: none;
+}

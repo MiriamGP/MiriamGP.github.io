@@ -1,0 +1,138 @@
+/*EXAMEN TIPO 1: Copyright*/
+
+@font-face {
+    /*Para importar un tipo de fuente*/
+    font-family: "titulo";
+    src: url("dominio-publico-eeuu-plantilla/silkscreen.woff2");
+}
+
+body {
+    background: url(dominio-publico-eeuu-plantilla/img/copyright.svg)repeat-y top left, url(dominio-publico-eeuu-plantilla/img/public-domain.svg) repeat-y right top;
+    background-size: 60px;
+    background-color: rgb(255, 168, 127);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecera {
+
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    margin: 30px 250px 30px 230px;
+    overflow: auto;
+}
+
+p {
+
+    font-size: 18px;
+    line-height: 25px;
+    text-align:justify;
+    margin: 30px 50px 30px 30px;
+    overflow: auto;
+    
+}
+
+.logo {
+    float: left;
+    margin-left: 5px;
+    margin-right: 60px;
+    font-size: 40px;
+    width: 5em;
+
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px -2px white;
+    font-family: "titulo";
+    margin: 0 350px 0 100px;/*TOP RIGHT BOTTOM LEFT*/
+    overflow: auto;
+
+}
+
+.nota {
+    
+    font-size: 80px;
+    float: left;
+    line-height: 1.2;  
+}
+
+h2 {
+    background-color: black;
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    padding: 0 20px 0 20px;
+    overflow: auto;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    margin: 30px 230px 30px 230px;
+    overflow: auto;
+}
+
+.p1 {
+    background-color: rgb(255, 211, 196);
+    text-align: justify;
+    border: black 5px solid;
+    margin: 30px 230px 30px 230px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: auto;
+    
+}
+
+.guion {
+    color: black
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.fechas {
+    background-color: white;
+}
+
+.discontinuo {
+    text-decoration: underline dashed 3px;
+}
+
+.nombres {
+    color: red;
+}
+
+.pie {
+    float: right;
+    text-align: right;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.blanco {
+    color: white;
+}
+
+.bono {
+    float: right;
+    border-radius: 20px;
+    margin-top: 18em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em; 
+
+
+}
+
+.lessig {
+    float: left;
+    border-radius: 20px;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;  
+}
